@@ -19,3 +19,28 @@
 .mw800{
 	max-width: 700px;
 }
+
+.clsbold {
+	font-weight: blod;
+}
+
+.inblock {
+	display: inline-block;
+}
+
+.w200{
+	width: 200px;
+}
+
+.h50{
+	height: 50px;
+}
+
+.h30{
+	height: 30px;
+}
+
+/* 위아래로는 0px 옆으론 10px */
+.mgnh10{
+	margin: 0px 10px; 
+}
