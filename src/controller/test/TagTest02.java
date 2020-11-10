@@ -24,21 +24,8 @@ public class TagTest02 implements ClsMain {
 		list.add("김주영");
 		list.add("장수진");
 		
-		ArrayList color = new ArrayList();
-		color.add("w3-red");
-		color.add("w3-orange");
-		color.add("w3-deep-orange");
-		color.add("w3-yellow");
-		color.add("w3-lime");
-		color.add("w3-blue");
-		color.add("w3-aqua");
-		color.add("w3-cyan");
-		color.add("w3-indigo");
-		color.add("w3-purple");
-		
 		// 데이터 넘겨주고
 		req.setAttribute("LIST", list);
-		req.setAttribute("COLOR", color);
 		
 		return "test/foreach02";
 	}

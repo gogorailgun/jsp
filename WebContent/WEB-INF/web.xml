@@ -20,14 +20,8 @@
 	<!-- *.cls로 들어오는 모든 요청 서블릿 -->
 	<servlet>
 		<servlet-name>clsDispatch</servlet-name>
-		<servlet-class>dispatch.ClsDispatch</servlet-class>
+		<servlet-class>com.increpas.cls.dispatch.ClsDispatch</servlet-class>
 	</servlet>
-	<!-- *.jhu로 들어오는 모든 요청 서블릿 -->
-	<servlet>
-		<servlet-name>jhuDispatch</servlet-name>
-		<servlet-class>dispatch.JhuDispatch</servlet-class>
-	</servlet>
-	
 <!-- ======================================================================== -->
 	<!-- 정의된 서블릿 매핑 -->
 	<servlet-mapping>
@@ -41,11 +35,5 @@
 	<servlet-mapping>
 		<servlet-name>clsDispatch</servlet-name>
 		<url-pattern>*.cls</url-pattern>
-	</servlet-mapping>
-	
-	<!-- *.jhu로 요청하는 서블릿 매핑 -->
-	<servlet-mapping>
-		<servlet-name>jhuDispatch</servlet-name>
-		<url-pattern>*.jhu</url-pattern>
 	</servlet-mapping>
 </web-app>
